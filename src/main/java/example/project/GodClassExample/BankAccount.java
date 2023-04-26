@@ -29,4 +29,13 @@ public class BankAccount {
     public Object getAccountNumber() {
         return accountNumber;
     }
+
+    public void addInterest() {
+        double value = this.balance * this.interest;
+        this.setBalance(this.balance + value);
+    }
+
+    public double obtainBalance() {
+        return this.getBalance();
+    }
 }

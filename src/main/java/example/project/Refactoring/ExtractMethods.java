@@ -34,7 +34,7 @@ public class ExtractMethods {
     }
 
     public static int[] initialiseArray(int length){
-        int[] array = new int[10];
+        int[] array = new int[length];
 
         for (int i = 0; i < length; i++) {
             array[i] = (int) (Math.random() * 10);
